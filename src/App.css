@@ -2,6 +2,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  color:blueviolet
   
 }
 .board-row{
@@ -25,10 +26,17 @@ body{
 
 }
 
+.square{
+  border:1px dashed;
+}
+
 .green{
-  background-color:lightgreen;
+   background-color:lightgreen;
   color:white;
-  font-size:xx-large
+  font-size:xx-large;
+  border-color: purple;
+  border:1px 1px ;
+
 }
 
 .reset-button{
